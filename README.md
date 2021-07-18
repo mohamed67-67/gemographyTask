@@ -4,9 +4,10 @@
 
 ![scSh1](https://user-images.githubusercontent.com/74463744/126068339-648d3fa8-7b95-4745-a66e-5f3110f8090d.png)
 
-This project was Created with: ##React.js
-For state managment: ##Redux
-for Styling: ##Material-UI
+# Technologies
+`React.js`
+`Redux`
+`Material-UI`
 
 ## online on netlify!
 
