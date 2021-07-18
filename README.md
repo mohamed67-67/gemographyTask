@@ -17,6 +17,10 @@ you can find the app online in 'https://gemography-task.netlify.app/'
 
 In the project directory, you can run:
 
+### `npm install`
+
+to install dependecies and packages
+
 ### `npm start`
 
 Runs the app in the development mode.\
