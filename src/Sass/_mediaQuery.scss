@@ -1,0 +1,37 @@
+
+
+
+// media Query for max-width of 650px
+
+@mixin responsive {
+    @media only screen and (max-width: 650px){
+        display: block ;
+        .detalis{
+            h1{
+                font-size: 1.5rem !important;
+                margin: 1vh 0 !important;
+            }
+            h2{
+                font-size: 1.25rem !important;
+                margin: 1vh 0 !important;
+            }
+        }
+        .avatar{
+            border-right: unset !important;
+            img{
+                width: 100% !important;
+                height: 35vh !important;
+                object-fit: cover !important;
+                border-radius: 15px 15px 0px 0px !important;
+                margin: 0 !important;
+            }
+        }
+        .rating{
+            height: 1.5rem !important;
+            p{
+                font-size: 0.9rem !important;
+            }
+        }
+
+    }
+}

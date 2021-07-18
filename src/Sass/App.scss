@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import 'mediaQuery';
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #98d6da;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    text-align: center;
+    color: white;
+}
+
+.Pagination{
+    justify-content: center;
+    box-shadow: 7px 3px 53px #463B9B;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px 0px;
+}
+
+.mainTrial{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 2vh;
+    @include responsive;
+    .detalis{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 15px;
+        h1,h2{
+            margin: 0px;
+            color: #463B9B;
+            font-weight: 400;
+        }
+    }
+    .avatar{
+        border-right: solid 1vh #98d6da;
+        img{
+            width: 220px;
+            margin: 15px;
+            border-radius: 15px;
+        }
+    }
+    .rating{
+        display: flex;
+        height: 15%;
+        p{
+            align-self: center;
+            color: #463B9B;
+        }
+    }
+    .stars,.bugs{
+        display: flex;
+        background-color: #7DA2C5;
+        border-radius: 5px;
+        margin-right: 1vw;
+        p{
+            padding: 5px;
+            color: white;
+        }
+    }
+    .icon{
+        align-self: center;
+    }
+    .star{
+        color: gold;
+    }
+    .bug{
+        color: gainsboro;
+    }
+}
+
+.MuiPagination-ul{
+    justify-content: center;
+}
+
+.CircularProgress{
+    position: absolute;
+    top: 50vh;
+    left: 49vw;
+    
+}
